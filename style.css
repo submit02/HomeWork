@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    background-color: #071952;
+    justify-content: space-between;
+    padding-inline: 120px;
+    border-bottom: 3px solid  #131842;
+}
+nav > img {
+width: 90px;
+height: 90px;
+cursor: pointer;
+}
+nav > ul{
+    display: flex;
+    padding-top: 30px;
+    color: white;
+    gap: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+body{
+    background-color: #071952;
+}
+.box{
+    position: relative;
+}
+.reg> input{
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    top: 180px;
+    left: 70px;
+    padding-left: 12px;
+    border: 0;
+    border-radius: 0px;
+}
+#inp23{
+    top: 180px;
+    left: 340px;
+}
+.reg > button{
+    position: absolute;
+    width: 140px;
+    height: 60px;
+    border: 0;
+    border-radius: 4px;
+    top: 280px;
+    left: 70px;
+    cursor: pointer;
+}
+.icon > img{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 420px;
+    left: 67%;
+    cursor: pointer;
+}
+#icon2{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 230px;
+    left: 80%;
+}
+#icon3{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: 70px;
+    left: 60%;
+}
+.box > h1{
+    position: absolute;
+    color: white;
+    left: 42%;
+    top: 20px;
+    font-size: 45px;
+}
